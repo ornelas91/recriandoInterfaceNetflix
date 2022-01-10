@@ -9,21 +9,25 @@
     <!--owl css-->
     <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
     <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    <link rel="stylesheet" href="style/textCurve.css">
 
     <!--responsividade-->
     <link rel="stylesheet" href="style/responsive.css">
+    <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=ABeeZee:regular:latin'>
 
     <title>Ornflix</title>
 </head>
 <body>
     <header>
         <div class="container">
-            <h2 class="logo">ORNFLIX</h2>
+            <div class="logo" id='warped'>
+                     <span class='w0'>O</span><span class='w1'>R</span><span class='w2'>N</span><span class='w3'>F</span><span class='w4'>L</span><span class='w5'>I</span><span class='w6'>X</span>
+              </div>
             <nav>
                 <a href="index.html">Inicio</a>
-                <a href="#">Séries</a>
-                <a href="#">Filmes</a>
-                <a href="#">Documentários</a>
+                <a href="#serie">Séries</a>
+                <a href="#film">Filmes</a>
+                <a href="#doc">Documentários</a>
             </nav>
         </div>
     </header>
@@ -31,13 +35,14 @@
     <main>
         <div class="filme-principal">
             <div class="container">
-                <h3 class="titulo">The Good Doctor</h3>
-                <p class="descricao">Um jovem médico com autismo começa a trabalhar em um famoso hospital. Além dos desafios da profissão, ele terá também que provar sua capacidade a seus colegas e superiores.</p>
+                <h3 class="titulo">Fantasma</h3>
+                <p class="descricao">Seu nome é Fantasma. Ele não lembra quem é e de onde é. Ele não se lembra o seu próprio nome nem o passado. Tudo que sua memória conservou é rosto de uma mulher assustada.
+                    Única pista é uma tatuagem com coordenadas de um esconderijo.</p>
                 <div class="botoes">
-                    <button role="button" class="botao">
+                    <a href="https://youtu.be/ay-fWCzKocc"><button role="button" class="botao">
                         <i class="fas fa-play"></i>
                         ASSISTIR AGORA  
-                    </button>
+                    </button></a>
                     <button role="button" class="botao">
                         <i class="fas fa-info-circle"></i>
                         MAIS INFORMAÇÕES  
@@ -49,7 +54,7 @@
     </main>
 
     <div class="carrosel-filmes">
-        <h3 class="titulo-filme">Filmes</h3>
+        <h3 id="film" class="titulo-filme">Filmes</h3>
         <div class="owl-carousel owl-theme">
 
             <div class="item">
@@ -67,7 +72,47 @@
             <div class="item">
             <iframe class="box-filme" width="948" height="533" src="https://www.youtube.com/embed/0tEMEzUdh3c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
+        </div>
 
+    <div class="carrosel-filmes">
+        <h3 id="serie" class="titulo-filme">Séries</h3>
+        <div class="owl-carousel owl-theme">
+
+            <div class="item">
+            <iframe class="box-filme" width="1166" height="656" src="https://www.youtube.com/embed/holzBghWTlY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <div class="item">
+            <iframe class="box-filme" width="1166" height="656" src="https://www.youtube.com/embed/9fUU6y5-rTc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <div class="item">
+            <iframe class="box-filme" width="1166" height="656" src="https://www.youtube.com/embed/_YoeHOTJBI4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            
+            <div class="item">
+            <iframe class="box-filme" width="1166" height="656" src="https://www.youtube.com/embed/5aqlLkrCWvA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    <div class="carrosel-filmes">
+        <h3 id="doc" class="titulo-filme">Documentários</h3>
+        <div class="owl-carousel owl-theme">
+
+            <div class="item">
+            <iframe class="box-filme" width="1166" height="656" src="https://www.youtube.com/embed/LTNVXkLGBIg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <div class="item">
+            <iframe class="box-filme" width="1166" height="656" src="https://www.youtube.com/embed/pf4XsmdBA5w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <div class="item">
+            <iframe class="box-filme" width="1164" height="656" src="https://www.youtube.com/embed/rnLQAQO1-Yk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            
+            <div class="item">
+            <iframe class="box-filme" width="1166" height="656" src="https://www.youtube.com/embed/LWYBZWbMRGI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
         </div>
 
     </div>

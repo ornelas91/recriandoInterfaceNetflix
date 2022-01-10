@@ -1,0 +1,36 @@
+#warped {position: relative; display: block; width:256px; height:102px;}
+
+#warped>span[class^=w]:nth-of-type(n+0){display:block; position:absolute;
+-moz-transform-origin:50% 100%; -webkit-transform-origin:50% 100%; -o-transform-origin:50%
+100%; -ms-transform-origin:50% 100%; transform-origin:50% 100%; }
+
+#warped span{font-family:'ABeeZee';font-size:38px;font-weight:regular;font-style:normal;
+line-height:0.65; white-space:pre; overflow:visible; padding:0px;}
+
+#warped .w0 {-moz-transform: rotate(-6.41rad);-webkit-transform: rotate(-6.41rad);-o-transform:
+rotate(-6.41rad);-ms-transform: rotate(-6.41rad); transform: rotate(-6.41rad);
+width: 29px; height: 25px; left: 23.97px; top: 41.93px;}
+
+#warped .w1 {-moz-transform: rotate(-6.36rad);-webkit-transform: rotate(-6.36rad);-o-transform:
+rotate(-6.36rad);-ms-transform: rotate(-6.36rad); transform: rotate(-6.36rad);
+width: 23px; height: 25px; left: 57.4px; top: 39.04px;}
+
+#warped .w2 {-moz-transform: rotate(-6.31rad);-webkit-transform: rotate(-6.31rad);-o-transform:
+rotate(-6.31rad);-ms-transform: rotate(-6.31rad); transform: rotate(-6.31rad);
+width: 27px; height: 25px; left: 86.14px; top: 37.6px;}
+
+#warped .w3 {-moz-transform: rotate(-6.27rad);-webkit-transform: rotate(-6.27rad);-o-transform:
+rotate(-6.27rad);-ms-transform: rotate(-6.27rad); transform: rotate(-6.27rad);
+width: 20px; height: 25px; left: 118.15px; top: 37.51px;}
+
+#warped .w4 {-moz-transform: rotate(-6.23rad);-webkit-transform: rotate(-6.23rad);-o-transform:
+rotate(-6.23rad);-ms-transform: rotate(-6.23rad); transform: rotate(-6.23rad);
+width: 19px; height: 25px; left: 142.43px; top: 38.42px;}
+
+#warped .w5 {-moz-transform: rotate(-6.19rad);-webkit-transform: rotate(-6.19rad);-o-transform:
+rotate(-6.19rad);-ms-transform: rotate(-6.19rad); transform: rotate(-6.19rad);
+width: 10px; height: 25px; left: 166.61px; top: 39.93px;}
+
+#warped .w6 {-moz-transform: rotate(-6.15rad);-webkit-transform: rotate(-6.15rad);-o-transform:
+rotate(-6.15rad);-ms-transform: rotate(-6.15rad); transform: rotate(-6.15rad);
+width: 23px; height: 25px; left: 181.83px; top: 42.51px;}

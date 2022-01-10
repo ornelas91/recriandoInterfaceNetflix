@@ -22,11 +22,11 @@
         height: 30%;
     }
     .botao{
+        display: flex;
+        flex-direction: row;
         margin-top: 5px;
         width: 150px;
         height: 50px;
     }
-    .titulo{
-        
-    }
+
 }
